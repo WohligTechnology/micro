@@ -1,0 +1,265 @@
+/*
+	Skin name: MEPRO PHARMACEUTICALS
+	Description: Custom Theme for MEPRO PHARMACEUTICALS
+	Author: Designed by TING and Coded by The Connectorz
+	Version: 1.3
+*/
+
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+b { font-weight: bold;}
+/* Clearfix hack */
+.clearfix:after { content: "\00A0"; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+.clearfix{ display: inline-block;}
+html[xmlns] .clearfix { display: block;}
+* html .clearfix{ height: 1%;}
+.clearfix {display: block}
+a { text-decoration: none; }
+/* Sticky Footer hack */
+html, body, #main-wrapper { height: 100%; }
+body > #main-wrapper { height: auto; min-height: 100%; min-width: 960px; width: auto !important; width: 960px; }
+#wrapper { padding-bottom: 18px; position: relative; }
+#fwrapper { position: relative; margin-top: -18px; height: 18px; clear: both; background: none #8f0100; min-width: 960px; width: auto !important; width: 960px;}
+
+/* MEPRO Home Page General Elements*/
+body { background: none #ffffff; font-family: "Lucida Sans", "Lucida Sans Unicode", "Lucida Grande", Verdana, Tahoma, sans-serif; font-size: 14px; color: #292929; line-height: 1;}
+#hwrapper, #nwrapper, #content, #fwrapper { width: 100%; position: relative; }
+#hwrapper { height: 106px; background: url("images/header-bg.jpg") no-repeat center 0 transparent;}
+#nwrapper { height: 56px; background: url("images/mepro_nav.png") repeat-x 0 0 transparent; margin-top: -4px; z-index: 11;}
+#content { height: auto; z-index: 10;}
+#header-inner, #navigation-inner, #content-inner, #footer-inner { width: 960px; margin: 0 auto; position: relative; height: 100%;}
+.meproleft { float: left; position: realtive; }
+.meproright { float: right; position: relative; }
+#footer-inner { width: 856px; }
+
+/* Header Section */
+a#mepro-logo { display: block; position: absolute; top: 0; left: 388px; width: 178px; height: 106px; background: url("images/mepro_logo.png") no-repeat 0 0 transparent; }
+a#mepro-logo span { visibility: hidden; }
+a.dateget { color: #8f0100; font-size: 11px; line-height: 20px; position: absolute; display: block; top: 10px; right: 20px;}
+.homepage a#mepro-logo { width: 393px; }
+
+/* Navigation Section */
+#nwrapper ul { text-align: center; list-style-type: none; }
+#nwrapper li { display: -moz-inline-stack;  display: inline-block; margin: 11px 16px 0px 0px; zoom: 1; *display: inline; }
+#nwrapper li.last { margin: 11px 0px 0px;}
+#nwrapper li a{ display: block; font-size: 11px; line-height: 1; color: #292929; text-decoration: none; padding: 11px 0px;}
+#nwrapper li a:hover, #nwrapper li a.active { color: #970401; }
+#nwrapper li ul { display: none; }
+#nwrapper li ul { position: absolute; text-align: left; margin-left: -10px; }
+#nwrapper li ul li { display: block; margin: 0px; width: 165px; border-bottom: 1px solid #ffffff;}
+#nwrapper li ul li a { padding : 5px 10px; background: none #7e0402; color: #ffffff;}
+#nwrapper li ul li a:hover, #nwrapper li ul li a.active { background: none #2386bc; color: #ffffff;}
+#nwrapper ul li:hover ul, #nwrapper ul li:focus ul{ display:block;}
+#nwrapper ul li:hover > a { color: #970401; }
+#nwrapper li ul li:hover a { color: #ffffff; }
+
+/* Home Slider */
+#slider-home { width: 960px; height: 304px; overflow: hidden; }
+.slider1, .slider2, .slider3, .slider4 { width: 960px; height: 304px; }
+.slider1 {background: url("images/slider/mepro-slider1.jpg") no-repeat center -146px transparent;}
+.slider2 { background: url("images/slider/mepro-slider2.jpg") no-repeat center -146px transparent; }
+.slider3 { background: url("images/slider/mepro-slider3.jpg") no-repeat center -146px transparent; }
+.slider4 { background: url("images/slider/mepro-slider4.jpg") no-repeat center -146px transparent; }
+.slider1 a, .slider2 a, .slider3 a, .slider4 a { display: block; position: relative; width: 100%; height: 100%;}
+#slider-home a span { visibility: hidden; }
+/* Footer Section */
+#fwrapper a { font-size: 10px; line-height: 1; padding: 4px 0px; color: #ffffff; }
+
+/* Plant Overview Section Manufacturing */
+#plant-overview { float: left; width: 800px; margin: 20px 80px; font-size: 12px; line-height: 1.5; border-collapse: collapse; border-spacing: 0; table-layout: fixed;}
+#plant-overview th { background: none #09699d; color: #ffffff; font-size: 12px; padding: 6px; text-align: left; }
+#plant-overview th.inst-mep { text-align: center;}
+#plant-overview th.dos-mep { padding-left: 30px;}
+#plant-overview td { background: none transparent; color: #292929; font-size: 11px; line-height: 20px; padding: 16px 3px; text-align: left; border-bottom: 1px solid #a1a1a1; }
+#plant-overview td.types-mep { padding-left: 30px; }
+h1.page-title { font-size: 14px; color: #8f0202; display: block; padding: 22px 0px 0px 80px;}
+.right-mep { float: right; }
+#plant-overview tr.noborder-mep td { border: 0;}
+
+/* Contact Us page */
+.usemargin #content-inner { margin-top: -11px; background: none transparent; min-height: 330px; height: auto !important; height: 330px;}
+.usemargin #content-inner.contacts, .usemargin #content-inner.objectives{ min-height: 420px; height: auto !important; height: 420px;}
+.usemargin h1.page-title { padding-top: 33px; }
+p { font-size: 11px; line-height: 20px; margin: 0; padding: 0; color: #000000; padding-left: 80px; margin: 30px 0px; }
+
+/* Careers Page */
+.usemargin #content-inner.careers { min-height: 420px; height: auto !important; height: 420px; }
+.careers p { margin: 10px 0px;}
+a.highlight { text-decoration: none; color: #8f0202; }
+
+/* Regulator affairs */
+.usemargin #content-inner.regulatory { background: none transparent; margin-bottom: 20px; }
+.regulatory p { margin: 10px 0px; text-align: justify; padding-right: 80px;}
+.regulatory ul, .creams ul , .injectables ul, .objectives ul{ padding: 0px 80px; margin: 10px 0px; list-style: none;}
+.regulatory ul li, .creams ul li, .injectables ul li, .objectives ul li {display: block; font-size: 11px; line-height: 20px; }
+.regulatory ul li:before, .creams ul li:before, .injectables ul li:before, .objectives ul li:before { font-size: 20px; line-height: 20px; display: block; float: left; padding-right: 5px; padding-left: 5px; content: "\2022"; color: #2891c9;}
+
+/* Tablets and Capsules */
+#tablets-table { width: 890px; height: 540px; margin: 25px 35px; position: relative; border-bottom: 1px solid #a4a4a4;}
+.therapeutic-area { float: left; width: 250px; height: 100%; border-right: 1px solid #a4a4a4;}
+.tablets-category  { float: left; width: 174px; height: 100%; border-right: 1px solid #a4a4a4; }
+.product-form { float: left; width: 464px; height: 100%; }
+.table-heading { width: 100%; background: none #09699d; height: 24px; font-size: 12px; line-height: 24px; text-align: center; color: #ffffff; margin-bottom: 15px;}
+ul#ther-list li { font-size: 10px; line-height: 1; padding-top: 4px; padding-bottom: 4px; margin-bottom: 6px; cursor: pointer; }
+ul.category-list li { font-size: 10px; line-height: 1; padding-left: 15px; padding-top: 4px; padding-bottom: 4px; margin-bottom: 6px; cursor: pointer;}
+ul.category-list { display: none; }
+li.selected, li.mouseover { color: #a10404;}
+p.product-details { margin: 0px 0px; padding: 0px 15px; line-height: 24px;}
+p.product-details { display: none; }
+
+/* Approvals */
+.usemargin #content-inner.approvals { background: none transparent; min-height: 420px; height: auto !important; height: 420px; }
+.usemargin h1.lessmargin { padding-top: 13px; }
+.approvals p { margin: 20px 0px 10px 0px; }
+
+/* Creams */
+.creams ul { margin-top: 20px; }
+.creams ul li { line-height: 18px; }
+.creams ul li:before { font-size: 18px; line-height: 18px;}
+
+/* Injectables */
+.injectables p { margin: 10px 0px; }
+
+/* Global Presence */
+.usemargin #content-inner.global { min-height: 450px; height: auto !important; height: 450px;}
+a.thered_dot { display: block; position: absolute; width: 5px; height: 5px; background: url("images/map-dot.png") no-repeat 0 0 transparent; }
+a#dominican { left: 176px; top: 154px; }
+a#costa-rica { left: 123px; top: 189px;}
+a#peru { left: 162px; top: 266px;}
+a#denmark { left: 393px; top: 25px;}
+a#uk { left: 404px; top: 49px;}
+a#netherlands { left: 425px; top: 50px;}
+a#ukraine { left: 534px; top: 59px;}
+a#bulgaria { left: 492px; top: 91px;}
+a#algeria { left: 433px; top: 125px;}
+a#iraq { left: 574px; top: 145px;}
+a#yemen { left: 580px; top: 163px;}
+a#nigeria { left: 439px; top: 202px;}
+a#kenya { left: 546px; top: 230px;}
+a#congo { left: 467px; top: 265px;}
+a#angola { left: 465px; top: 288px;}
+a#russia { left: 747px; top: 12px;}
+a#myanmar { left: 744px; top: 153px;}
+a#vietnam { left: 776px; top: 156px;}
+a#cambodia { left: 777px; top: 168px;}
+a#thailand { left: 764px; top: 172px;}
+a#phillipines { left: 833px; top: 181px;}
+a#srilanka { left: 695px; top: 197px;}
+
+/* Changes to the homepage and other pages*/
+h1.paratitle { font-size: 14px; color: #8f0202; display: block; width: 856px; margin: 0px auto 15px auto; position: relative; }
+p.paracontent { font-size: 11px; line-height: 20px; display: block; width: 856px; margin: 0px auto 15px auto; padding: 0; position: relative; text-align: justify;}
+#content.ch-approvals { background: url("images/approvals-bg.jpg") no-repeat center -146px transparent; }
+#content.ch-contact { background: url("images/contact-bg.jpg") no-repeat center -146px transparent; }
+#content.ch-careers { background: url("images/careers-bg.jpg") no-repeat center -146px transparent; }
+#content.ch-global { background: url("images/map-bg2.jpg") no-repeat center -148px transparent; }
+#content.ch-tablets { background: url("images/tablets-bg.jpg") no-repeat center -146px transparent; }
+#content.ch-creams { background: url("images/creams-bg.jpg") no-repeat center -146px transparent; }
+#content.ch-injectables { background: url("images/injectables-bg.jpg") no-repeat center -146px transparent; }
+#content.ch-gallery { background: url("images/gallery-bg.jpg") no-repeat center -146px transparent; }
+#content.ch-objectives { background: url("images/objectives-bg.jpg") no-repeat center -146px transparent; }
+#content.ch-quality { background: url("images/quality-bg.jpg") no-repeat center -146px transparent; }
+p.reducedmargin { margin: 10px 0px; }
+.homepage #content-inner { margin-top: -11px;}
+a.mail-link { text-decoration: none; color: #8f0202; }
+
+/* Gallery Page */
+.gallerypage #content-inner { min-height: 670px; height: auto !important; height: 670px; }
+ul.gallery-list { margin: 10px 0px 20px 80px;}
+ul.gallery-list li { display: block; float: left; margin: 0px 10px 10px 0px; border: 1px solid #2891c9; width: 144px; height: 93px; }
+ul.gallery-list li a { display: block; }
+
+/* Our Objectives */
+.objectives ul { margin-top: 20px; }
+.objectives ul li { line-height: 32px; text-transform: uppercase; }
+.objectives ul li:before { font-size: 24px; line-height: 32px; padding-left: 0px;}
+
+/* Our Quality Statement */
+.quality p { text-transform: uppercase; }
+
+/*
+    ColorBox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative;}
+#cboxLoadedContent{overflow:auto; -webkit-overflow-scrolling: touch;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%; height:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+.cboxPhoto{float:left; margin:auto; border:0; display:block; max-width:none;}
+.cboxIframe{width:100%; height:100%; display:block; border:0;}
+#colorbox, #cboxContent, #cboxLoadedContent{box-sizing:content-box; -moz-box-sizing:content-box; -webkit-box-sizing:content-box;}
+
+/* 
+    User Style:
+    Change the following styles to modify the appearance of ColorBox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#cboxOverlay{background:url(images/overlay.png) repeat 0 0;}
+#colorbox{}
+    #cboxTopLeft{width:21px; height:21px; background:url(images/controls.png) no-repeat -101px 0;}
+    #cboxTopRight{width:21px; height:21px; background:url(images/controls.png) no-repeat -130px 0;}
+    #cboxBottomLeft{width:21px; height:21px; background:url(images/controls.png) no-repeat -101px -29px;}
+    #cboxBottomRight{width:21px; height:21px; background:url(images/controls.png) no-repeat -130px -29px;}
+    #cboxMiddleLeft{width:21px; background:url(images/controls.png) left top repeat-y;}
+    #cboxMiddleRight{width:21px; background:url(images/controls.png) right top repeat-y;}
+    #cboxTopCenter{height:21px; background:url(images/border.png) 0 0 repeat-x;}
+    #cboxBottomCenter{height:21px; background:url(images/border.png) 0 -29px repeat-x;}
+    #cboxContent{background:#fff; overflow:hidden;}
+        .cboxIframe{background:#fff;}
+        #cboxError{padding:50px; border:1px solid #ccc;}
+        #cboxLoadedContent{margin-bottom:28px;}
+        #cboxTitle{position:absolute; bottom:4px; left:0; text-align:center; width:100%; color:#949494;}
+        #cboxCurrent{position:absolute; bottom:4px; left:58px; color:#949494;}
+        #cboxSlideshow{position:absolute; bottom:4px; right:30px; color:#0092ef;}
+        #cboxPrevious{position:absolute; bottom:0; left:0; background:url(images/controls.png) no-repeat -75px 0; width:25px; height:25px; text-indent:-9999px;}
+        #cboxPrevious:hover{background-position:-75px -25px;}
+        #cboxNext{position:absolute; bottom:0; left:27px; background:url(images/controls.png) no-repeat -50px 0; width:25px; height:25px; text-indent:-9999px;}
+        #cboxNext:hover{background-position:-50px -25px;}
+        #cboxLoadingOverlay{background:url(images/loading_background.png) no-repeat center center;}
+        #cboxLoadingGraphic{background:url(images/loading.gif) no-repeat center center;}
+        #cboxClose{position:absolute; bottom:0; right:0; background:url(images/controls.png) no-repeat -25px 0; width:25px; height:25px; text-indent:-9999px;}
+        #cboxClose:hover{background-position:-25px -25px;}
+
+/*
+  The following fixes a problem where IE7 and IE8 replace a PNG's alpha transparency with a black fill
+  when an alpha filter (opacity change) is set on the element or ancestor element.  This style is not applied to or needed in IE9.
+  See: http://jacklmoore.com/notes/ie-transparency-problems/
+*/
+.cboxIE #cboxTopLeft,
+.cboxIE #cboxTopCenter,
+.cboxIE #cboxTopRight,
+.cboxIE #cboxBottomLeft,
+.cboxIE #cboxBottomCenter,
+.cboxIE #cboxBottomRight,
+.cboxIE #cboxMiddleLeft,
+.cboxIE #cboxMiddleRight {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);
+}
+
+/*
+  The following provides PNG transparency support for IE6
+  Feel free to remove this and the /ie6/ directory if you have dropped IE6 support.
+*/
+.cboxIE6 #cboxTopLeft{background:url(images/ie6/borderTopLeft.png);}
+.cboxIE6 #cboxTopCenter{background:url(images/ie6/borderTopCenter.png);}
+.cboxIE6 #cboxTopRight{background:url(images/ie6/borderTopRight.png);}
+.cboxIE6 #cboxBottomLeft{background:url(images/ie6/borderBottomLeft.png);}
+.cboxIE6 #cboxBottomCenter{background:url(images/ie6/borderBottomCenter.png);}
+.cboxIE6 #cboxBottomRight{background:url(images/ie6/borderBottomRight.png);}
+.cboxIE6 #cboxMiddleLeft{background:url(images/ie6/borderMiddleLeft.png);}
+.cboxIE6 #cboxMiddleRight{background:url(images/ie6/borderMiddleRight.png);}
+
+.cboxIE6 #cboxTopLeft,
+.cboxIE6 #cboxTopCenter,
+.cboxIE6 #cboxTopRight,
+.cboxIE6 #cboxBottomLeft,
+.cboxIE6 #cboxBottomCenter,
+.cboxIE6 #cboxBottomRight,
+.cboxIE6 #cboxMiddleLeft,
+.cboxIE6 #cboxMiddleRight {
+    _behavior: expression(this.src = this.src ? this.src : this.currentStyle.backgroundImage.split('"')[1], this.style.background = "none", this.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src=" + this.src + ", sizingMethod='scale')");
+}
